@@ -1,9 +1,5 @@
 # 📩 SMS/Email Spam Classifier
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
-
 A machine learning web app that classifies text messages as **Spam** or **Not Spam**, built with **Scikit-learn** and **Streamlit**.
 
 The app trains and compares four classic ML models on a TF-IDF representation of the text, then lets you type in a message and get an instant prediction with a confidence score.
@@ -42,19 +38,24 @@ The app trains and compares four classic ML models on a TF-IDF representation of
 ## 🖼️ Screenshots
 
 **Classify Message** — live spam detector with quick example buttons
-![Classify Message](screenshots/classify_message.png)
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/433a0a9a-d4f3-483d-b5c7-c14155c6301d" />
+
 
 **Model Metrics** — accuracy, precision, recall, F1, confusion matrix & classification report per model
-![Model Metrics](screenshots/model_metrics.png)
+<img width="1919" height="937" alt="image" src="https://github.com/user-attachments/assets/8fe8ef6d-d4ba-4ccc-9be4-9445afc8329e" />
+
 
 **Model Comparison** — side-by-side comparison of all four classifiers
-![Model Comparison](screenshots/model_comparison.png)
+<img width="1915" height="947" alt="image" src="https://github.com/user-attachments/assets/f44ba5e4-2ced-4b88-8764-e7e524490372" />
+
 
 **Dataset Overview** — label distribution and sample messages
-![Dataset Overview](screenshots/dataset.png)
+<img width="1917" height="932" alt="image" src="https://github.com/user-attachments/assets/f34f5b25-3242-46a3-bae9-01be6e7af52c" />
+
 
 **Model Selector** — switch between classifiers from the sidebar
-![Model Selector](screenshots/model_dropdown.png)
+<img width="415" height="404" alt="image" src="https://github.com/user-attachments/assets/c03cffc3-3c48-4fd9-b300-fc3ff2566a0f" />
+
 
 ---
 

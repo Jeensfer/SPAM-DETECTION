@@ -13,6 +13,7 @@ The app trains and compares four classic ML models on a TF-IDF representation of
 ## 📑 Table of Contents
 
 - [Features](#-features)
+- [Screenshots](#️-screenshots)
 - [Project Structure](#️-project-structure)
 - [Requirements](#️-requirements)
 - [Getting Started](#-getting-started)
@@ -35,6 +36,25 @@ The app trains and compares four classic ML models on a TF-IDF representation of
 - **Evaluation metrics** for each model — accuracy, precision, recall, F1-score, confusion matrix, and full classification report
 - **Live prediction** on any custom message, with confidence (for probabilistic models) or decision score (for SVM)
 - **Cached data loading & training** via Streamlit's `@st.cache_data` / `@st.cache_resource` for fast reloads
+
+---
+
+## 🖼️ Screenshots
+
+**Classify Message** — live spam detector with quick example buttons
+![Classify Message](screenshots/classify_message.png)
+
+**Model Metrics** — accuracy, precision, recall, F1, confusion matrix & classification report per model
+![Model Metrics](screenshots/model_metrics.png)
+
+**Model Comparison** — side-by-side comparison of all four classifiers
+![Model Comparison](screenshots/model_comparison.png)
+
+**Dataset Overview** — label distribution and sample messages
+![Dataset Overview](screenshots/dataset.png)
+
+**Model Selector** — switch between classifiers from the sidebar
+![Model Selector](screenshots/model_dropdown.png)
 
 ---
 
